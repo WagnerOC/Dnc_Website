@@ -1,0 +1,659 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: white;
+  opacity: 0.5;
+  height: 80px;
+  max-width: 100%;
+  padding: 11px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0px;
+}
+
+.caixa-verde-menu {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  padding: 6px;
+  margin: auto;
+  display: flex;
+  position: sticky;
+  top: 0px;
+}
+
+.logo-dnc {
+  height: 50px;
+  width: 100px;
+  margin-top: -2px;
+  background-image: url(/Imagens_dnc_web/carrinho_compras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lista-menu {
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  margin-right: 35px;
+  color: blue;
+  font-weight: 700;
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 13px;
+}
+
+li:hover{
+  color: rgb(37, 113, 88);
+  transition: 500ms;
+
+}
+
+.logo-carrinho {
+  background-image: url(../Imagens_dnc_web/carrinho_compras.png);
+  height: 40px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 3px;
+  margin-left: 70px;
+  float: right;
+}
+
+.botao-login {
+  height: 10px;
+  width: 60px;
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+
+.botao-login:hover{
+  background-color: rgb(65, 148, 221);
+  color: antiquewhite;
+  transition: 500ms;
+}
+
+.caixa-texto {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.446);
+  padding: 20px;
+  max-width: 700px;
+  margin-top: 100px;
+  margin-left: 160px;
+  border-radius: 10px;
+  position: absolute;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: 'Unbounded', cursive;
+
+}
+
+p {
+  line-height: 25px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-family: 'Merriweather', serif;
+}
+
+.botao-conheca {
+  padding: 15px;
+  background-color: rgb(34, 184, 164);
+  color: blue;
+  width: 410px;
+  border-radius: 6px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-conheca:hover {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  transition: 500ms;
+}
+
+.botao-whatsapp{
+  position: absolute;
+  margin-left: 1650px;
+  margin-top: 650px;
+  width: 250px;
+  
+}
+
+.botao-whatsapp:hover{
+  width: 110px;
+  transition: 500ms;
+}
+
+.img-whatts{
+  width: 90px;
+  
+}
+
+.img-whatts:hover{
+  width: 95px;
+  transition: 500ms;
+}
+
+.legenda-img-whats{
+  color: rgb(37, 113, 88);
+  font-size: 28px;background-color: rgba(0, 0, 0, 0.346);
+  padding: 10px;
+  margin-left: -80px;
+  border-radius: 15px;
+  width: 220px;
+}
+
+.legenda-img-whats:hover{
+  color: rgb(255, 208, 127);
+  transition: 500ms;
+  font-size: 28px;background-color: rgba(154, 18, 18, 0.346);
+}
+
+.div-img-styck{
+  position: sticky;
+  top: 100px;
+}
+
+.caixa-fundo {
+  background-color: blue;
+  height: 100vh;
+  max-width: 100%;
+  background-image: url(/Imagens/dnc_fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media screen and (max-width:2000px)
+                          {
+ 
+                            
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    max-width: 1500px;
+    padding: 11px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 2000px;
+    height: 100vh;
+  }
+  .caixa-verde-menu {
+    width: 90%;
+    height: 30%;
+   
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+  
+  .logo-dnc {
+    height: 50px;
+    width: 100px;
+    margin-top: -2px;
+    background-image: url(/Imagens/dnc-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .lista-menu {
+  
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 25px;
+    padding: 0px;
+    height: 10px;
+    width: 1005px;
+    
+  }
+  
+  li {
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+    color: blue;
+    font-weight: 700;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 30px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+
+  }
+  
+  li:hover{
+    color: rgb(255, 175, 37);
+    transition: 500ms;
+  
+  }
+  
+  .logo-carrinho {
+    background-image: url(/Imagens/carrinho_compras.png);
+    height: 40px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 880px;
+  }
+  
+  .botao-login {
+    height: 10px;
+    width: 60px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 80px;
+    
+  }
+  
+  .botao-login:hover{
+    background-color: rgb(65, 148, 221);
+    color: antiquewhite;
+    transition: 500ms;
+    cursor: pointer;
+  }
+   
+  .caixa-fundo {
+    background-color: blue;
+    height: 836px;
+    max-width: 2000px;
+    background-image: url(/Imagens/dnc_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+
+}
+
+
+@media screen and (max-width:1500px)
+                          {
+ 
+                            
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    max-width: 1500px;
+    padding: 11px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 1500px;
+    height: 100vh;
+  }
+  .caixa-verde-menu {
+    width: 90%;
+    height: 30%;
+   
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+  
+  .logo-dnc {
+    height: 50px;
+    width: 100px;
+    margin-top: -2px;
+    background-image: url(/Imagens/dnc-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .lista-menu {
+  
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 25px;
+    padding: 0px;
+    height: 10px;
+    width: 1005px;
+    
+  }
+  
+  li {
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+    color: blue;
+    font-weight: 700;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 30px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+
+  }
+  
+  li:hover{
+    color: rgb(255, 175, 37);
+    transition: 500ms;
+  
+  }
+  
+  .logo-carrinho {
+    background-image: url(/Imagens/carrinho_compras.png);
+    height: 40px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 880px;
+  }
+  
+  .botao-login {
+    height: 10px;
+    width: 60px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 80px;
+    
+  }
+  
+  .botao-login:hover{
+    background-color: rgb(65, 148, 221);
+    color: antiquewhite;
+    transition: 500ms;
+    cursor: pointer;
+  }
+   
+  .caixa-fundo {
+    background-color: blue;
+    height: 836px;
+    max-width: 1500px;
+    background-image: url(/Imagens/dnc_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+
+}
+
+
+@media screen and (max-width:600px)
+                          {
+ 
+                            
+  body {
+    margin: 0px;
+    padding: 0px;
+    max-width: 600px;
+    height: 100vh;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .header {
+    background-color: white;
+    opacity: 0.5;
+    height: 140px;
+    max-width: 600px;
+    padding: 11px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    
+  }
+  
+  .caixa-verde-menu {
+    width: 90%;
+    height: 30%;
+   
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0px;
+  }
+  
+  .logo-dnc {
+    height: 50px;
+    width: 100px;
+    margin-top: -2px;
+    background-image: url(/Imagens/dnc-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .lista-menu {
+  
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 85px;
+    padding: 0px;
+    height: 10px;
+    width: 505px;
+    
+  }
+  
+  li {
+    float: left;
+    display: inline-block;
+    list-style-type: none;
+    color: blue;
+    background-color: rgba(255, 166, 0, 0.547);
+    font-weight: 700;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 13px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+
+  }
+  
+  li:hover{
+    color: rgb(255, 175, 37);
+    background-color: rgba(0, 0, 0, 0.595);
+    transition: 500ms;
+  
+  }
+  
+  .logo-carrinho {
+    background-image: url(/Imagens/carrinho_compras.png);
+    height: 40px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 130px;
+  }
+  
+  .botao-login {
+    height: 10px;
+    width: 60px;
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 95px;
+    
+  }
+  
+  .botao-login:hover{
+    background-color: rgb(65, 148, 221);
+    color: antiquewhite;
+    transition: 500ms;
+    cursor: pointer;
+  }
+  
+  .caixa-texto {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.446);
+    padding: 10px;
+    max-width: 440px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: absolute;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-family: 'Unbounded', cursive;
+  
+  }
+  
+  p {
+    line-height: 25px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-family: 'Merriweather', serif;
+  }
+  
+  .botao-conheca {
+    padding: 15px;
+    background-color: rgb(34, 184, 164);
+    color: blue;
+    width: 350px;
+   
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .botao-conheca:hover {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    transition: 500ms;
+  }
+  
+  .botao-whatsapp{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 630px;
+    width: 10px;
+    
+  }
+  
+  .botao-whatsapp:hover{
+    width: 110px;
+    transition: 500ms;
+  }
+  
+  .img-whatts{
+    width: 50px;
+    
+  }
+  
+  .img-whatts:hover{
+    width: 55px;
+    transition: 500ms;
+  }
+  
+  .legenda-img-whats{
+    color: rgb(49, 225, 166);
+    font-size: 18px;background-color: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    margin-left: -55px;
+    margin-top: 6px;
+    border-radius: 15px;
+    width: 130px;
+  }
+  
+  .legenda-img-whats:hover{
+    color: rgb(255, 208, 127);
+    transition: 500ms;
+    font-size: 20px;background-color: rgba(18, 97, 154, 0.346);
+    width: 150px;
+  
+  }
+  
+  .caixa-fundo {
+    background-color: blue;
+    height: 750px;
+    max-width: 600px;
+    background-image: url(/Imagens/dnc_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:calc(160px - 500px);
+  }
+
+}
